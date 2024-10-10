@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Dia 1"
-date:   2024-10-11 02:43:13 +0200
-categories: jekyll update
+date:   2024-10-11 02:43:13 +0300
+categories: jekyll
 ---
 Pim pam pum! Dia 1
 
