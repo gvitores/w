@@ -5,7 +5,12 @@
 layout: home
 ---
 
-{% for post in site.posts %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
+<h1>Posts</h1>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
